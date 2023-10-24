@@ -8,7 +8,7 @@
     <link rel="icon" href="./img/favicon_32x32.png">
   </head>
   <body>
-    <header class="header animate__animated animate__fadeInDown">
+    <header class="header">
       <div class="header__content-wrapper">
         <a href="#" class="header__logo">
           <svg
@@ -34,22 +34,15 @@
             </g>
           </svg>
         </a>
-        <button
-          class="menu-btn header__menu-btn"
-          aria-label="toggle menu button"
-          aria-pressed="true"
-        >
+        <button class="menu-btn header__menu-btn">
           <span
             class="menu-btn__bar menu-btn__bar--1"
-            aria-hidden="true"
           ></span>
           <span
             class="menu-btn__bar menu-btn__bar--2"
-            aria-hidden="true"
           ></span>
           <span
             class="menu-btn__bar menu-btn__bar--3"
-            aria-hidden="true"
           ></span>
         </button>
         <nav class="header__nav">
@@ -84,12 +77,12 @@
       <div class="hero__content-wrapper">
         <div class="hero__img-wrapper">
           <img
-            class="hero__img animate__animated animate__bounceInRight"
+            class="hero__img"
             src="./img/illustration-hero.svg"
             alt="tablet"
           />
         </div>
-        <div class="hero__text-wrapper animate__animated animate__fadeInLeft">
+        <div class="hero__text-wrapper">
           <h1 class="hero__heading heading heading--primary">
             A Simple Bookmark Manager
           </h1>
@@ -100,12 +93,12 @@
           </p>
           <div class="hero__btn-wrapper">
             <button
-              class="btn btn--blue animate__animated animate__tada animate__delay-1s"
+              class="btn btn--blue"
             >
               Get it on Chrome
             </button>
             <button
-              class="btn btn--grey animate__animated animate__tada animate__delay-2s"
+              class="btn btn--grey"
             >
               Get it on Firefox
             </button>
@@ -113,7 +106,7 @@
         </div>
       </div>
     </section>
-    <section class="features" aria-live="polite">
+    <section class="features">
       <div class="features__content-wrapper">
         <div class="features__header">
           <h2 class="features__heading heading heading--secondary">Features</h2>
@@ -124,11 +117,11 @@
           </p>
         </div>
         <ul class="tabs">
-          <li class="tabs__tab tabs__tab--active" id="tab-1" tabindex="0">
+          <li class="tabs__tab tabs__tab--active">
             Simple Bookmarking
           </li>
-          <li class="tabs__tab" id="tab-2" tabindex="0">Speedy Searching</li>
-          <li class="tabs__tab" id="tab-3" tabindex="0">Easy Sharing</li>
+          <li class="tabs__tab">Speedy Searching</li>
+          <li class="tabs__tab">Easy Sharing</li>
         </ul>
         <div class="feature">
           <div class="feature__img-wrapper">
@@ -214,7 +207,6 @@
           <details class="faq">
             <summary class="faq__question">
               What is Bookmark?
-
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="18"
@@ -326,8 +318,7 @@
             class="cta__input"
             type="text"
             placeholder="Enter your email address"
-            aria-labelledby="form-heading"
-            required
+
           />
           <button class="cta__btn btn btn--red">Contact Us</button>
         </form>
