@@ -1493,7 +1493,7 @@ body {
   align-items: stretch;
 }
 
-@media only screen and (min-width: 375px) {
+@media only screen and (min-width: 400px) {
   .hero__btn-wrapper {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -1506,7 +1506,7 @@ body {
   margin-bottom: 2rem;
 }
 
-@media only screen and (min-width: 375px) {
+@media only screen and (min-width: 400px) {
   .hero__btn-wrapper *:first-child {
     margin-right: 2rem;
     margin-bottom: 0;
